@@ -1,0 +1,15 @@
+plugins {
+	id "java"
+	id "org.springframework.boot" version "2.7.18"
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation group: "javax.servlet", name: "javax.servlet-api", version: "4.0.1"
+	implementation group: "javax.servlet.jsp", name: "javax.servlet.jsp-api", version: "2.3.3"
+	implementation group: "org.apache.tomcat.embed", name: "tomcat-embed-jasper", version: "9.0.95"
+	implementation group: "org.springframework.boot", name: "spring-boot-starter-web", version: "2.7.18"
+}
